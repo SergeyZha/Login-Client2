@@ -5,7 +5,7 @@ console.log(process.env.NODE_ENV);
 const url =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:5000'
-    : 'https://superuser-api.onrender.com';
+    : 'https://login-server-mnvd.onrender.com';
 
 axiosApiInstance.defaults.baseURL = url;
 axiosApiInstance.defaults.withCredentials = true;
